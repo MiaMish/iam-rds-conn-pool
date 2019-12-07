@@ -1,9 +1,3 @@
-# Build
-
-```
-mvn package
-```
-
 # Usage
 
 Add to your POM
@@ -36,4 +30,10 @@ public DataSource dataSource() {
     props.setDriverClassName("com.mysql.jdbc.Driver"); 
     return new IamAuthenticationDataSource(props); 
 }
+```
+
+# Release
+
+```
+mvn clean deploy
 ```
