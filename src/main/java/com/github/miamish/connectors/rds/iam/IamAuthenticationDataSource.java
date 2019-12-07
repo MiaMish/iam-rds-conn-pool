@@ -1,4 +1,4 @@
-package com.miamish.connectors.rds.iam;
+package com.github.miamish.connectors.rds.iam;
 
 import java.sql.SQLException;
 
